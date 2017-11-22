@@ -9,9 +9,6 @@ let ad=function() {
     let t = document.getElementById("t1");
     let r=  t.rows;
     let i;
-    window.alert(t);
-    window.alert(r);
-    window.alert(w);
     if(n == '' || x == '' || y == '' ||w == ''){
         window.alert("some of the feilds are empty");
         return false;
@@ -47,7 +44,6 @@ let ad=function() {
         document.getElementById("i3").focus();
       return false; 
      }
-     alert(r.length);
     let a = t.insertRow(1);
     let c5 = a.insertCell(0);
     let c1 = a.insertCell(1);
