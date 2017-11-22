@@ -45,11 +45,11 @@ let ad=function() {
       return false; 
      }
     let a = t.insertRow(1);
-    let c5 = a.insertCells(0);
-    let c1 = a.insertCells(1);
-    let c2 = a.insertCells(2);
-    let c3 = a.insertCells(3);
-    let c4 = a.insertCells(4);
+    let c5 = a.insertCell(0);
+    let c1 = a.insertCell(1);
+    let c2 = a.insertCell(2);
+    let c3 = a.insertCell(3);
+    let c4 = a.insertCell(4);
     let s = document.createElement("td");
     let b = document.createElement("input");
     b.setAttribute("type", "checkbox");
