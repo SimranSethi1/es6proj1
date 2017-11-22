@@ -1,0 +1,87 @@
+<head>
+        <script type="text/javascript" src="stud/stu.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>      
+    </head>
+    <body style="background-color:rgb(220,220,220)">
+            <div class="container-fluid" style="font-family:Lucida Console;text-shadow: 3px 2px white;background-color:rgb(192,192,192)">
+            <h1>STUDENT MANAGEMENT PORTAL</h1>
+            </div>
+              <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">REGISTER</a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Page 1-1</a></li>
+                      <li><a href="#">Page 1-2</a></li>
+                      <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Page 2</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+              </div>
+            </nav>
+            <form action="/action_page.php" id="student" required>
+                First name:<br>
+                <input type="text" name="firstname" id="i1" value="" class="form control" required>
+                <br>
+                Roll no:<br>
+                <input type="text" name="rollno" id="i2" value="" class="form control" required>
+                <br>
+                yearofpassing:<br>
+                <input type="text" name="yearofpassing" id="i3" value="" class="form control" required><br>
+                stream:<br>
+                <input type="text" name="stream" id="i4" value="" class="form control" required>
+              </form>
+        <button onclick="ad()" class="btn btn-default btn-lg">add details</button>&nbsp;&nbsp;&nbsp;<button onclick="del()" class="btn btn-default btn-lg">delete</button>
+        &nbsp;&nbsp;&nbsp;<button onclick="edit()" class="btn btn-default btn-lg">EDIT</button>     
+    <table id="t1" class="table">
+    <tr>
+        <th>  </th>
+        <th>Name</th>
+        <th>rollno</th>
+        <th>year of passing</th>
+        <th>stream</th>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>simran</td>
+        <td>645</td>
+        <td>2018</td>
+        <td>145</td>
+    </tr>
+    <tr>
+          <td><input type="checkbox"></td>
+          <td>james</td>
+            <td>640</td>
+            <td>2017</td>
+            <td>144</td>
+    </tr> 
+    <tr>
+           <td><input type="checkbox"></td>
+           <td>luther</td>
+           <td>640</td>
+           <td>2020</td>
+           <td>147</td>
+    </tr>
+    <tr>
+            <td><input type="checkbox"></td>
+            <td>john</td>
+            <td>345</td>
+            <td>2021</td>
+            <td>567</td>
+     </tr>   
+     </table>
+            </body>
+        </html>
