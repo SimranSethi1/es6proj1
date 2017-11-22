@@ -6,7 +6,7 @@ let ad=function() {
     let x = document.getElementById("i2").value;
     let y = document.getElementById("i3").value;
     let w = document.getElementById("i4").value;
-    let t = new tab();
+    let t = document.getElementByid("t1");
     let r=t.rows;
     let i;
     if(n == '' || x == '' || y == '' ||w == ''){
